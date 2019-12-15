@@ -1,0 +1,9 @@
+# MacOS
+.DS_Store
+
+# Git related staff
+.gitconfig
+
+# Non-versioned zshrc
+.zshrcnv
+

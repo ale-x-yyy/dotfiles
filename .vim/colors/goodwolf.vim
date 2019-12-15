@@ -1,0 +1,1 @@
+../bundle/badwolf_colors/colors/goodwolf.vim
