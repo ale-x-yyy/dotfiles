@@ -14,11 +14,11 @@ Plugin 'VundleVim/Vundle.vim'
 " completion for Unicode glyphs
 Plugin 'chrisbra/unicode.vim'
 
-" completion for Python
-Plugin 'davidhalter/jedi-vim'
-
 " superatab insertion
 Plugin 'ervandew/supertab'
+
+" remove trailing whitespaces
+Plugin 'axelf4/vim-strip-trailing-whitespace'
 
 call vundle#end()
 
