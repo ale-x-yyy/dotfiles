@@ -11,19 +11,13 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-" completion for Unicode glyphs
-Plugin 'chrisbra/unicode.vim'
-
-" superatab insertion
-Plugin 'ervandew/supertab'
-
-" remove trailing whitespaces
-Plugin 'axelf4/vim-strip-trailing-whitespace'
-
 call vundle#end()
 
 filetype plugin indent on   " required by Vundle
 syntax enable               " enable syntax processing
+
+set exrc                    " looking for project-specific .vimrc
+set secure
 
 " colors
 set rtp +=~/.vim/colors
