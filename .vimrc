@@ -14,10 +14,7 @@ Plugin 'VundleVim/Vundle.vim'
 call vundle#end()
 
 filetype plugin indent on   " required by Vundle
-syntax enable               " enable syntax processing
-
-set exrc                    " looking for project-specific .vimrc
-set secure
+syntax on                   " enable syntax processing
 
 " colors
 set rtp +=~/.vim/colors
@@ -28,6 +25,7 @@ set softtabstop=4           " number of spaces in tab when editing
 set shiftwidth=4            " number of spaces to use for auto indent
 set expandtab               " enter spaces when tab is pressed
 set autoindent              " copy indent from current line when starting a new line
+set smartindent
 
 set textwidth=120           " break lines when line length increases
 set showmatch               " highlight matching [{()}]
